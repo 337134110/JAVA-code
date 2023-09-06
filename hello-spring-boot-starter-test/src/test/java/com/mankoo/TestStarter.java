@@ -13,6 +13,7 @@ public class TestStarter {
 
     @Test
     void test(){
-        System.out.println("!!!!!" + helloService.hello());
+
+        System.out.println("!!!!!" + helloService.hello()); // 注释，这个是注释
     }
 }
